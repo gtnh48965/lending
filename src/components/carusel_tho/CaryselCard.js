@@ -27,7 +27,6 @@ const ServicesDetailedCaruselTho  = () => {
                 <div>
                     <h1>
                         Unity разработчика
-
                     </h1>
                     <p>
                         (человек с опытом работы в специфике Rimworld, в идеале - мододел)

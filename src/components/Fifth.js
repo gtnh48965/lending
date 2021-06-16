@@ -21,8 +21,8 @@ const Fifth_screen = () => {
                 </h2>
                     </div>
                     <div className="but">
-                        <a href="https://discord.gg/YFG8VJFs">
-                <button className="col">Перейти на форум</button>
+                        <a href="https://vk.com/rimworldline">
+                <button className="col">Перейти в группу VK</button>
                         </a>
             </div>
                 </div>
