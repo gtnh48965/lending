@@ -20,8 +20,8 @@ const First_screen = () => {
             <p>Генератор захватывающих историй с живыми людьми</p>
             <div className="button row">
 
-                <a className="col-lg-1" href="https://discord.gg/YFG8VJFs"><button className="one">Перейти на форум</button></a>
-                <a className="col-lg-1" href="https://discord.gg/YFG8VJFs"><button className="tho">Перейти к серверам</button></a>
+                <a className="col-lg-1" href="https://discord.gg/2XBAchnydf"><button className="one">Перейти на форум</button></a>
+                <a className="col-lg-1" href="https://discord.gg/2XBAchnydf"><button className="tho">Перейти к серверам</button></a>
 
             </div>
     </div>
