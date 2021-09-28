@@ -6,30 +6,32 @@ body{
 }
 .First_screen {
   background-size: cover;
-
   height: 100%;
   background-image: url("/images/first-fon.png");
   background-repeat: no-repeat;
   position: relative;
+
   .fon {
     width: 100%;
     height: 100%;
     background-size: cover;
     background-repeat: no-repeat;
+
     .rimword{
       img{
       width: 100%;
-    }}
+        }
+    }
     .block{
       height: 100%;
       width: 100%;
+
       .img{
-        img{
+          img{
           position: absolute;
           bottom: 0;
           left: 0;
           width: 800px;
-          //width: 100%;
         }
       }
 
@@ -38,6 +40,7 @@ body{
         text-align: left;
         padding-right: 50px;
         margin-bottom: 140px;
+
         p{
           max-width: 500px;
           margin-bottom: 26px;
@@ -50,9 +53,11 @@ body{
           letter-spacing: 0.05em;
           color: #5F6AF1;
         }
+
         img{
           margin-bottom:99px ;
         }
+
         h1{
           width: 100%;
           font-family: Manrope;
@@ -64,9 +69,9 @@ body{
           display: flex;
           align-items: center;
           letter-spacing: 0.05em;
-
           color: #FFFFFF;
         }
+
         button{
           background: #E7EBFF;
           width: 195.48px;
@@ -84,50 +89,47 @@ body{
   .ehkxHv{
     display: none;
   }
-  background: #111737;
+    background: #111737;
   .container{
-  .block{
-    .carysel{
-      margin-bottom: 70px;
-      margin-top: 73px;
-      background-image: url("/images/carysel/fon.png");
-      background-repeat: no-repeat;
-    }
-    .text{
-      h1{
-        margin-top: 42px;
-        font-family: Manrope;
-        font-style: normal;
-        font-weight: 800;
-        font-size: 4em;
-        line-height: 90px;
-        /* or 125% */
-        display: flex;
-        align-items: center;
-
-        color: #5761D7;
+    .block{
+      .carysel{
+        margin-bottom: 70px;
+        margin-top: 73px;
+        background-image: url("/images/carysel/fon.png");
+        background-repeat: no-repeat;
       }
-      p{
+      .text{
+        h1{
+          margin-top: 42px;
+          font-family: Manrope;
+          font-style: normal;
+          font-weight: 800;
+          font-size: 4em;
+          line-height: 90px;
+          display: flex;
+          align-items: center;
+          color: #5761D7;
+        }
 
-        font-family: Manrope;
-        font-style: normal;
-        font-weight: bold;
-        font-size: 2em;
-        line-height: 40px;
-        /* or 118% */
-
-        color: #FFFFFF;
+        p{
+          font-family: Manrope;
+          font-style: normal;
+          font-weight: bold;
+          font-size: 2em;
+          line-height: 40px;
+          color: #FFFFFF;
+        }
       }
     }
   }
-}}
+}
 .Third_screen{
-
   background-repeat: no-repeat;
   background-position: top;
   background-image: url("images/Third/fon.png");
   background-size: cover;
   //height: 800px;
+
   .ehkxHv{
     background-color: inherit;
     color: rgb(88,77,118);
@@ -138,32 +140,36 @@ body{
     font-size: 4.6em;
     color: rgb(88,77,118);
   }
-.caryselMiniDiv{
-  margin-bottom: 100px;
-}
+
+  .caryselMiniDiv{
+    margin-bottom: 100px;
+  }
+
   .frame{
     width: 100%;
     height: 100%;
   }
+
   .one p{
     weight:100;
     font-style: normal;
     font-weight: 100;
     text-align: left;
   }
-.tho p{
+
+  .tho p{
     weight:100;
     font-style: normal;
     font-weight: 100;
   }
+
   h1{
     font-weight: 800;
     line-height: 70px;
     margin: inherit;
-    /* or 146% */
-  ;
     color: #FFFFFF;
   }
+
   h2{
     position: relative;
     font-weight: 700;
@@ -174,18 +180,15 @@ body{
     //border-bottom: 5px solid #5761D7;
   }
 
-
   h3{
     font-family: Manrope;
     font-style: normal;
     font-weight: 200;
     line-height: 50px;
-    /* or 104% */
-
     color: #FFFFFF;
   }
-  p{
 
+  p{
     color: #FFFFFF;
   }
 
@@ -216,7 +219,7 @@ body{
       color: #FFFFFF;
       opacity: 0.4;
       margin-top:60px;
-      }
+    }
 
 }
 .Fourth_screen {
@@ -253,10 +256,6 @@ body{
 
       color: #FFFFFF;
     }
-
-
-
-
     p {
       font-family: Manrope;
       font-style: normal;
@@ -272,6 +271,7 @@ body{
   }
 
   .tho {
+
     h2 {
       font-family: Manrope;
       font-style: normal;
@@ -279,13 +279,8 @@ body{
       font-weight: 600;
       //font-size: 48px;
       line-height: 50px;
-      /* or 104% */
-      //border-bottom: 5px solid #5761D7;
-
       color: #FFFFFF;
     }
-
-    //h2:after{
 
     p {
       font-family: Manrope;
@@ -304,21 +299,23 @@ body{
   background-size: cover;
   background-image: url("images/Fourth/fon.png");
   background-repeat: no-repeat;
+
   h1{
     font-family: Manrope;
     font-style: normal;
     font-weight: 800;
     line-height: 70px;
     margin: inherit;
-
     color: #FFFFFF;
   }
+
   h2{
     padding-top: 80px;
     margin-bottom: inherit;
     line-height: 70px;
     color: #FFFFFF;
   }
+
   h3{
     font-family: Manrope;
     font-style: normal;
@@ -329,6 +326,7 @@ body{
 
     color: #FFFFFF;
   }
+
   button{
     width: 257px;
     height: 79px;
@@ -341,7 +339,6 @@ body{
     line-height: 27px;
     align-items: center;
     text-align: center;
-
     color: #FFFFFF;
 
   }
@@ -385,6 +382,7 @@ background: #111737;
 .caryselMini{
   margin-top: 100px;
   height: 442px;
+
   img{
     //max-width: 400px;
     width: 100%;
@@ -410,137 +408,139 @@ button{
   }
 }
 @media (max-width: 991px) {
-  .caryselMini{
-    height: 300px;
-  }
-.Fourth_screen{
-  h1{
-    line-height: inherit;
-  }
-  .one {
-    h2{
-    line-height: inherit;
-  }
-  p{
-    margin-bottom: 50px;
-    line-height: inherit;
-  }
-
-  }
-  .tho{
-    h2{
-      line-height: inherit;
-      margin-top: 50px;
+    .caryselMini{
+      height: 300px;
     }
-    p{
-      line-height: inherit;
-    }}
+    .Fourth_screen{
+      h1{
+        line-height: inherit;
+      }
+      .one {
+        h2{
+          line-height: inherit;
+        }
+        p{
+          margin-bottom: 50px;
+          line-height: inherit;
+        }
+      }
+      .tho{
 
-
-}
-  .Sixth_screen{
+        h2{
+          line-height: inherit;
+          margin-top: 50px;
+        }
+        p{
+          line-height: inherit;
+        }
+      }
+    }
     h1{
       line-height: inherit;
       font-size: 2.3rem;
+      p{
+        line-height: inherit;
+      }
+    }
+    .Fifth_screen {
+      h2{
+        line-height: inherit;
+        //margin-left: inherit;
+        font-weight: normal;
+        font-size: 30px;
+      }
 
-    }
-    p{
-      line-height: inherit;
-    }
-  }
-  .Fifth_screen {
-    h2{
-      line-height: inherit;
-      //margin-left: inherit;
-      font-weight: normal;
-      font-size: 30px;
-    }
-    h1{
-      font-weight: normal;
-      margin-left: 5px;
-      font-size: 30px;
-      line-height: inherit;
-    }
-    .text h2{
-      line-height: inherit;
-      font-weight: normal;
-      font-size: 20px;
+      h1{
+        font-weight: normal;
+        margin-left: 5px;
+        font-size: 30px;
+        line-height: inherit;
+      }
 
+      .text h2{
+        line-height: inherit;
+        font-weight: normal;
+        font-size: 20px;
+      }
     }
-  }
-  .Third_screen{
-    .img-bogdan{
-      height: inherit;
-    }
-    h1{
-      font-size: 19px;
-      line-height: inherit;
-    }
-    p{
-      font-size: 12px;
-    }
-   .one:before{
-      display: contents;
-     background-color: inherit;
-    }
-    .tho:before{
-      display: contents;
-      background-color: inherit;
-    }
-    .tho{
-      background-color: inherit;
-      text-align: right;
-    }
-     h2 {
+    .Third_screen{
+
+      .img-bogdan{
+        height: inherit;
+      }
+
+      h1{
+        font-size: 19px;
+        line-height: inherit;
+      }
+
+      p{
+        font-size: 12px;
+      }
+      .one:before{
+        display: contents;
+        background-color: inherit;
+      }
+
+      .tho:before{
+        display: contents;
+        background-color: inherit;
+      }
+
+      .tho{
+        background-color: inherit;
+        text-align: right;
+      }
+      h2 {
        border-bottom: inherit;
       line-height: inherit;
+      }
+      .but{
+        display: none;
+      }
     }
-    .but{
+    .img-bogdan{
+      padding-right: inherit;
+      padding-left: inherit;
+      margin-top: inherit;
+    }
+    .First_screen .fon .block .rimword {
+      margin-bottom: 40px;
+    p{
+        color: white;
+      }
+    }
+    .First_screen{
+      background-image: url("/images/firt-fon-Mini.png");
+      .fon{
+          .block .rimword img{
+            margin-bottom: 0;
+            margin-top: 60px;
+          }
+          .img{
+            order: 2;
+          }
+      }
+    }
+    .mobil{
+      display: inherit;
+    }
+    .deck{
       display: none;
+      }
+    .First_screen .fon .block .img img{
+      position: inherit;
+      width: 100%;
     }
-  }
-  .img-bogdan{
-
-    padding-right: inherit;
-  padding-left: inherit;
-   margin-top: inherit;
-}
-.First_screen .fon .block .rimword {
-margin-bottom: 40px;
-p{
-  color: white;
-}}
-.First_screen{
-  background-image: url("/images/firt-fon-Mini.png");
-.fon{
-.block .rimword img{
-  margin-bottom: 0;
-  margin-top: 60px;
-}
-.img{
-  order: 2;
-}
-}
-}
-.mobil{
-display: inherit;
-}
-.deck{
-display: none;
-}
-.First_screen .fon .block .img img{
-position: inherit;
-width: 100%;
-}
 }
 @media (min-width: 992px){
-
-.deck{
-display: inherit;
+  .deck{
+    display: inherit;
+  }
+  .mobil{
+    display: none;
+    }
 }
-.mobil{
-display: none;
-}}
 
 @media (max-width: 1199px){
   .ServDetailed-slider_img_small{
@@ -552,6 +552,7 @@ display: none;
     border-radius: 50px;
     margin-bottom: 100px;
     overflow:hidden;
+
     img{
       //height: 318px;
       width: 100%;
@@ -570,32 +571,35 @@ display: none;
 
 
 @media (min-width: 1200px){
+  .Second_screen{
 
-.Second_screen{
-.caryselMin{
-  display: none;
+    .caryselMin{
+      display: none;
+    }
+  }
+  .h3, h3 {
+    font-size: 2rem;
+    weight:500px;
+  }
+  .h2, h2 {
+    weight:600px;
+    font-size: 3rem;;
+  }
+  .h1, h1 {
+    weight:800px;
+    font-size: 4rem;;
+  }
+  p{
+    font-size: 1.7rem;
+  }
 }
-}
-.h3, h3 {
-font-size: 2rem;
-weight:500px;
-}
-.h2, h2 {
-weight:600px;
-font-size: 3rem;;
-}
-.h1, h1 {
-weight:800px;
-font-size: 4rem;;
-}
-p{
-font-size: 1.7rem;
-}}
 @media (max-width: 768px){
-.Second_screen .container .block .text p {
-font-size: 1.3em;
-line-height: inherit;
-}}
+
+  .Second_screen .container .block .text p {
+    font-size: 1.3em;
+    line-height: inherit;
+  }
+}
 
 @media (max-width: 540px) {
 
@@ -607,61 +611,64 @@ line-height: inherit;
     height: 28px;
   }
 
-.Second_screen .container .block .text {
-h1 {
-font-size: 2.8em;
+  .Second_screen .container .block .text {
+    h1{
+      font-size: 2.8em;
+    }
+    p{
+      font-size: 1.3em;
+    }
 }
-p{
-font-size: 1.3em;
-}
-}
-.First_screen .fon .block {
-width: inherit;
-padding-left: 10px;
-.rimword {
-padding-right: inherit;
-h1 {
-font-weight: inherit;
-font-size: 2.7em;
-line-height: inherit;
-}
-p{
-font-size: inherit;
-line-height: inherit;
-}}}
-.First_screen .fon .block .rimword .button {
-flex-direction: column;
-.one{
-  width: 100%;
-background: #5761D7;
-border-radius: 50px;
-color: white;
-height: 28px;
-margin-bottom: 5px;
-max-width: inherit;
-}
-.tho{
-  width: 100%;
-background: white;
-border-radius: 50px;
-color: #5761D7;
-height: 28px;
-margin-bottom: 5px;
-max-width: inherit;
-}
+  .First_screen .fon .block {
+    width: inherit;
+    padding-left: 10px;
+      .rimword {
+          padding-right: inherit;
+      h1{
+        font-weight: inherit;
+        font-size: 2.7em;
+        line-height: inherit;
+        }
+      p{
+        font-size: inherit;
+        line-height: inherit;
+        }
+      }
+  }
+  .First_screen .fon .block .rimword .button {
+    flex-direction: column;
+
+  .one{
+    width: 100%;
+    background: #5761D7;
+    border-radius: 50px;
+    color: white;
+    height: 28px;
+    margin-bottom: 5px;
+    max-width: inherit;
+    }
+
+  .tho{
+    width: 100%;
+    background: white;
+    border-radius: 50px;
+    color: #5761D7;
+    height: 28px;
+    margin-bottom: 5px;
+    max-width: inherit;
+  }
 }
   .Fifth_screen{
     .but{
       padding: 20px;
-    button {
-      width: 100%;
-      background: #5761D7;
-      border-radius: 50px;
-      color: white;
-
-      height: 28px;
-      margin-bottom: 50px;
-    }
+        button {
+          width: 100%;
+          background: #5761D7;
+          border-radius: 50px;
+          color: white;
+          height: 28px;
+          margin-bottom: 50px;
+        }
     }
   }
 }
@@ -670,20 +677,22 @@ max-width: inherit;
     .button{
       a{
         width: inherit;
-      }}
+      }
+    }
   }
-.h3, h3 {
-font-size: 1.7rem;
-weight:500;
+  .h3, h3 {
+    font-size: 1.7rem;
+    weight:500;
+  }
+  .h2, h2 {
+    weight:600;
+    font-size: 2.7rem;;
+  }
+  .h1, h1 {
+    weight:800;
+    font-size: 3.6rem;;
+  }
+  p{
+    font-size: 1.4rem;
+  }
 }
-.h2, h2 {
-weight:600;
-font-size: 2.7rem;;
-}
-.h1, h1 {
-weight:800;
-font-size: 3.6rem;;
-}
-p{
-font-size: 1.4rem;
-}}
